@@ -25,6 +25,8 @@ make && make install
 ln -s /usr/local/python3/bin/python3 /usr/bin/python3
 ln -s /usr/local/python3/bin/pip3 /usr/bin/pip3
 
+curl https://raw.githubusercontent.com/kennethreitz/pipenv/master/get-pipenv.py | python
+
 ## Install neovim
 yum remove vim
 yum install neovim
