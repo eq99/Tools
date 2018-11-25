@@ -32,3 +32,5 @@ ln -s /usr/local/python3/bin/python3 /usr/bin/python3
 ln -s /usr/local/python3/bin/pip3 /usr/bin/pip3
 
 pip3 install --user --upgrade pipenv
+echo 'export PATH="/root/.local/bin:$PATH"' >> /etc/profile
+source /etc/profile
