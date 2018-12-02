@@ -1,5 +1,4 @@
-#write .repo file
-
+# write .repo file
 echo "[mongodb-org-4.0] \n
 name=MongoDB Repository \n
 baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/4.0/x86_64/ \n
